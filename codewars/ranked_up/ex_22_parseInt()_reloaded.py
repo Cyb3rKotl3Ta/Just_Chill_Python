@@ -48,8 +48,8 @@ def parse_int_v2_false(s):
         else              : res += cn * number; cn = 0
     return res + cn
 
-print(parse_int_v2("one"))  # Output: 1
-print(parse_int_v2("twenty"))  # Output: 20
-print(parse_int_v2("two hundred"))  # Output: 200
-print(parse_int_v2("twenty-three"))  # Output: 23
-print(parse_int_v2("seven hundred eighty-three thousand nine hundred and nineteen"))  # Output: 783919
+print(parse_int_v2_false("one"))  # Output: 1
+print(parse_int_v2_false("twenty"))  # Output: 20
+print(parse_int_v2_false("two hundred"))  # Output: 200
+print(parse_int_v2_false("twenty-three"))  # Output: 23
+print(parse_int_v2_false("seven hundred eighty-three thousand nine hundred and nineteen"))  # Output: 783919
